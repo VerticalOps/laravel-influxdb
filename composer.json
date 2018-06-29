@@ -14,8 +14,14 @@
             "TrayLabs\\InfluxDB\\": "src/"
         }
     },
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://github.com/VerticalOps/influxdb-php"
+        }
+    ],
     "require": {
-        "influxdb/influxdb-php": "^1.14",
+        "influxdb/influxdb-php": "dev-master",
         "illuminate/support": "^5.0"
     },
     "minimum-stability": "dev"
