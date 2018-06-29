@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0538448c42f89d5253cf0a806ff3b2f7",
+    "content-hash": "5d0aed415d360e0641aeaea9e00885be",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -359,16 +359,16 @@
         },
         {
             "name": "influxdata/influxdb-php",
-            "version": "dev-master",
+            "version": "dev-vops",
             "source": {
                 "type": "git",
                 "url": "https://github.com/VerticalOps/influxdb-php.git",
-                "reference": "adcac617373f891abab64f3831e251ebe85afafd"
+                "reference": "2faa3156b0936429c6c235b4edb9cd44f0968f25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/VerticalOps/influxdb-php/zipball/adcac617373f891abab64f3831e251ebe85afafd",
-                "reference": "adcac617373f891abab64f3831e251ebe85afafd",
+                "url": "https://api.github.com/repos/VerticalOps/influxdb-php/zipball/2faa3156b0936429c6c235b4edb9cd44f0968f25",
+                "reference": "2faa3156b0936429c6c235b4edb9cd44f0968f25",
                 "shasum": ""
             },
             "require": {
@@ -428,9 +428,9 @@
                 "time series"
             ],
             "support": {
-                "source": "https://github.com/VerticalOps/influxdb-php/tree/master"
+                "source": "https://github.com/VerticalOps/influxdb-php/tree/vops"
             },
-            "time": "2018-06-26T22:20:37+00:00"
+            "time": "2018-06-29T19:17:12+00:00"
         },
         {
             "name": "influxdb/influxdb-php",
@@ -867,7 +867,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "influxdb/influxdb-php": 20,
         "influxdata/influxdb-php": 20
     },
     "prefer-stable": false,
