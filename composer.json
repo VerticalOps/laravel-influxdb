@@ -21,8 +21,10 @@
         }
     ],
     "require": {
-        "influxdb/influxdb-php": "dev-master",
-        "illuminate/support": "^5.0"
+        "illuminate/support": "^5.0",
+	"influxdata/influxdb-php": "dev-master"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev": {
+	}
 }

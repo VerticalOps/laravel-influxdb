@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a39db7581e5b20b5b5b8c0947dd33396",
+    "content-hash": "0538448c42f89d5253cf0a806ff3b2f7",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -356,6 +356,81 @@
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
             "time": "2018-06-22T15:25:08+00:00"
+        },
+        {
+            "name": "influxdata/influxdb-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VerticalOps/influxdb-php.git",
+                "reference": "adcac617373f891abab64f3831e251ebe85afafd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VerticalOps/influxdb-php/zipball/adcac617373f891abab64f3831e251ebe85afafd",
+                "reference": "adcac617373f891abab64f3831e251ebe85afafd",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0",
+                "php": "^5.5 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "suggest": {
+                "stefanotorresi/influxdb-php-async": "An asyncronous client for InfluxDB, implemented via ReactPHP."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "InfluxDB\\": "src/InfluxDB"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "InfluxDB\\Test\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ],
+                "test-ci": [
+                    "vendor/bin/phpunit -v --coverage-clover=clover.xml"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Hoogendijk",
+                    "email": "stephen@tca0.nl"
+                },
+                {
+                    "name": "Daniel Martinez",
+                    "email": "danimartcas@hotmail.com"
+                },
+                {
+                    "name": "Gianluca Arbezzano",
+                    "email": "gianarb92@gmail.com"
+                }
+            ],
+            "description": "InfluxDB client library for PHP",
+            "keywords": [
+                "client",
+                "influxdata",
+                "influxdb",
+                "influxdb class",
+                "influxdb client",
+                "influxdb library",
+                "time series"
+            ],
+            "support": {
+                "source": "https://github.com/VerticalOps/influxdb-php/tree/master"
+            },
+            "time": "2018-06-26T22:20:37+00:00"
         },
         {
             "name": "influxdb/influxdb-php",
@@ -792,7 +867,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "influxdb/influxdb-php": 20
+        "influxdb/influxdb-php": 20,
+        "influxdata/influxdb-php": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
